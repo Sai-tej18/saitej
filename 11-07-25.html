@@ -1,0 +1,60 @@
+<html>
+    <head>
+        <body>
+            <script>
+                function greet(name){
+                    return "Welcome "+name;
+                }
+                function showMessage(callbackfuntion,username){
+                    let message=callbackfuntion(username);
+                    document.write(message +"<br>");
+
+                }
+                showMessage(greet,"SaiTej");
+            </script>
+            <script>
+                let a="100";
+                let b=Number(a);
+                document.write(b+"<br>");
+                let c=143.5;
+                let d=parseInt(c);
+                document.write(d+"<br>");
+                let e=115;
+                let f=String(e);
+                document.write(f+"<br>");
+                let g=50;
+                let val=g%2;
+                let tf=Boolean(val);
+                document.write(tf+"<br>");
+                
+            </script>
+            <script>
+                let n=18;
+                let s="10";
+                let result=n+s;
+                document.write("Implicit conversion (a+b): " + result+ "<br>");
+                let result2 = n-s;
+                document.write("Implicit conversion (a-b): " + result2+ "<br>");
+                let numStr ="25";
+                let num=Number(numStr);
+                document.write("Explicit Conversion using Number(): "+num+ "<br>");
+                let value=123;
+                let strValue=String(value);
+                
+            </script>
+            <script>
+                let a1=10;
+                let b1=5;
+                document.write("<h2> Arithmetic Operations in javascript</h2>" +"<br>");
+                document.write("a= "+a1+"<br>");
+                document.write("b= "+b1+"<br>");
+                document.write("Addition(a1+b1)= "+(a1+b1) +"<br>");
+                document.write("Subtractin (a1-b1)= "+(a1-b1) +"<br>");
+                document.write("Multiplication (a1*b1)= "+(a1*b1) +"<br>");
+                document.write("Division (a1/b1)= "+(a1/b1) +"<br>");
+                </script>
+            
+           <p>Hi dinesh</p>
+        </body>
+    </head>
+</html>
